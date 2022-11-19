@@ -1,0 +1,23 @@
+.footer{
+    background-image: linear-gradient(#AF40FF, #5B42F3,#00DDEB);
+    width:100%;
+    height:40px;
+}
+.footer span{
+    padding-top:8px;
+   color:#fff;
+    font-size: 15px;
+    display: block;
+    position:relative;
+    text-align: center;
+}
+
+.footer span a{
+        /* color:#00DDEB; */
+  color: #0DDEB3;
+}
+@media (max-width:600px){
+    .footer span{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,63 @@
+.intro {
+    position:relative;
+    height: 36rem;
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr 5rem;
+}
+
+.name span {
+
+    display: block;
+    color: red;
+    font-weight: 800;
+    font-size: 32px;
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name h2 {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.hrbtn{
+    padding-top:30px;
+}
+.hrbtn a {
+    border-radius: 3px;
+    color: black;
+    background-color: #fff;
+    border: solid white 8px;
+
+}
+
+.hrbtn a:hover {
+    color: white;
+    background-color: blue;
+    border: solid blue 8px;
+
+}
+
+.name {
+    display: grid;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.name h1 {
+    text-align: center;
+    margin: auto 0;
+}
+
+.myimg img {
+    width: 14rem;
+    align-items: center;
+}
+
+.myimg {
+    display: grid;
+    grid-column: 3/4;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 80px;
+}
